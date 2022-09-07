@@ -5,7 +5,9 @@
     "group:allNonMajor",
     "npm:unpublishSafe"
   ],
-  "constraints": {
-    "go": "1.16"
+    "force": {
+    "constraints": {
+      "go": "<= 1.16"
+    }
   }
 }
