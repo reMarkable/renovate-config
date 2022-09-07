@@ -5,9 +5,12 @@
     "group:allNonMajor",
     "npm:unpublishSafe"
   ],
-    "force": {
-    "constraints": {
-      "go": "<= 1.16"
+    "packageRules": [
+    {
+      "description": "Opt-out minimum Go version updates: https://github.com/renovatebot/renovate/issues/16715",
+      "matchManagers": ["gomod"],
+      "matchDepTypes": ["golang"],
+      "enabled": false
     }
-  }
+  ]
 }
