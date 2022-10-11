@@ -4,7 +4,7 @@ Here you'll find the Renovate default configuration for reMarkable.
 
 ## Getting started
 
-To start using renovate in your repo you should follow the instructions in [cloud-shared-services](), which will add renovate bot and open a PR to start inheriting from this repo by default.
+To start using renovate in your repo you should follow the instructions in [cloud-shared-services](https://github.com/reMarkable/cloud-shared-services/blob/main/docs/Renovate.md), which will add renovate bot and open a PR to start inheriting from this repo by default.
 
 To inherit configuration from this repo, your `renovate.json` should contain:
 
