@@ -1,6 +1,6 @@
 # Renovate configuration defaults
 
-Here you'll find the Renovate default configuration for reMarkable.
+Here you'll find the [Renovate](https://docs.renovatebot.com/) default configuration for reMarkable.
 
 ## Getting started
 

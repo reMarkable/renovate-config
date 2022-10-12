@@ -13,5 +13,8 @@
       "matchDepTypes": ["golang"],
       "enabled": false
     }
-  ]
+  ],
+  "pre-commit": {
+    "enabled": true
+  }
 }
