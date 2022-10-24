@@ -16,5 +16,8 @@
   ],
   "pre-commit": {
     "enabled": true
-  }
+  },
+  "schedule": [
+    "before 7am on Monday"
+  ]
 }
