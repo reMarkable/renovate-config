@@ -2,13 +2,13 @@
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.18.3
+    rev: 0.19.1
     hooks:
       - id: check-github-workflows
       - id: check-renovate
         files: default.json
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.2.0
+    rev: v3.4.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
