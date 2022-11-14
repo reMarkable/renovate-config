@@ -8,7 +8,7 @@ repos:
       - id: check-renovate
         files: default.json
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.4.0
+    rev: v4.3.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
